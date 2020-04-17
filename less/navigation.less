@@ -1,0 +1,17 @@
+
+nav {
+    padding: 0 40%;
+    .flexIn(row, space-around, center);
+    a:nth-of-type(1) {
+        font-weight: bold;
+    }
+    @media @tablet {
+        padding: 0 20%;
+    }
+    @media @mobile {
+        .flexIn(column, center, center);
+        span {
+            display: none;
+        }
+    }
+}
